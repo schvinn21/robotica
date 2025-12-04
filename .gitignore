@@ -1,0 +1,34 @@
+# =========================================================
+# Arquivos de build / compilação (ESP-IDF / CMake / Ninja)
+# =========================================================
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.obj
+*.a
+*.elf
+*.map
+*.bin
+*.hex
+*.log
+
+# Arquivos gerados pelo ESP-IDF
+sdkconfig.old
+# (se você NÃO quiser versionar o sdkconfig, descomente a linha abaixo)
+# sdkconfig
+
+# Logs e temporários
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# =========================================================
+# IDEs / ferramentas
+# =========================================================
+.vscode/
+.idea/
+*.code-workspace
